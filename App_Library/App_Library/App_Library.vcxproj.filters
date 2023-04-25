@@ -1,0 +1,85 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Archivos de origen">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Archivos de encabezado">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Archivos de recursos">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Model">
+      <UniqueIdentifier>{64fdd3f1-2605-4ae9-bf63-710d87a054f0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Presenter">
+      <UniqueIdentifier>{bdc6284d-78f9-4bcb-9b43-9bc4286a5ae2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="View">
+      <UniqueIdentifier>{a89bf47c-88eb-4d26-97ec-c69fd77cc0d0}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Main.cpp" />
+    <ClCompile Include="Presenter.cpp">
+      <Filter>Presenter</Filter>
+    </ClCompile>
+    <ClCompile Include="Library.cpp">
+      <Filter>Model</Filter>
+    </ClCompile>
+    <ClCompile Include="View.cpp">
+      <Filter>View</Filter>
+    </ClCompile>
+    <ClCompile Include="Book.cpp">
+      <Filter>Model</Filter>
+    </ClCompile>
+    <ClCompile Include="Member.cpp">
+      <Filter>Model</Filter>
+    </ClCompile>
+    <ClCompile Include="VipMember.cpp">
+      <Filter>Model</Filter>
+    </ClCompile>
+    <ClCompile Include="Borrow.cpp">
+      <Filter>Model</Filter>
+    </ClCompile>
+    <ClCompile Include="Edition.cpp">
+      <Filter>Model</Filter>
+    </ClCompile>
+    <ClCompile Include="IView.cpp">
+      <Filter>Presenter</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Presenter.h">
+      <Filter>Presenter</Filter>
+    </ClInclude>
+    <ClInclude Include="Library.h">
+      <Filter>Model</Filter>
+    </ClInclude>
+    <ClInclude Include="View.h">
+      <Filter>View</Filter>
+    </ClInclude>
+    <ClInclude Include="Book.h">
+      <Filter>Model</Filter>
+    </ClInclude>
+    <ClInclude Include="Member.h">
+      <Filter>Model</Filter>
+    </ClInclude>
+    <ClInclude Include="VipMember.h">
+      <Filter>Model</Filter>
+    </ClInclude>
+    <ClInclude Include="Borrow.h">
+      <Filter>Model</Filter>
+    </ClInclude>
+    <ClInclude Include="Edition.h">
+      <Filter>Model</Filter>
+    </ClInclude>
+    <ClInclude Include="IView.h">
+      <Filter>Presenter</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

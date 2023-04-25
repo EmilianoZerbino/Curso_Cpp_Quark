@@ -1,0 +1,5 @@
+﻿  View.cpp
+E:\Biblioteca de Usuario\Escritorio\Desafio_Final_Cpp_Quark\App_Library\App_Library\View.h(9,10): warning C4067: símbolos (token) inesperados después de la directiva del preprocesador; se esperaba una nueva línea
+E:\Biblioteca de Usuario\Escritorio\Desafio_Final_Cpp_Quark\App_Library\App_Library\View.cpp(84,66): warning C4018: '<': no coinciden signed/unsigned
+E:\Biblioteca de Usuario\Escritorio\Desafio_Final_Cpp_Quark\App_Library\App_Library\View.cpp(188,48): warning C4101: 'e': variable local sin referencia
+  App_Library.vcxproj -> E:\Biblioteca de Usuario\Escritorio\Desafio_Final_Cpp_Quark\App_Library\Debug\App_Library.exe
